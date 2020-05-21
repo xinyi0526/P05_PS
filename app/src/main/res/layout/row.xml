@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/ic_library_music" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingRight="160dp"
+                    android:text="year"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView1star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/btn_star_big_off" />
+
+                <ImageView
+                    android:id="@+id/imageView2star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/btn_star_big_off" />
+
+                <ImageView
+                    android:id="@+id/imageView3star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/btn_star_big_off" />
+
+                <ImageView
+                    android:id="@+id/imageView4star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/btn_star_big_off" />
+
+                <ImageView
+                    android:id="@+id/imageView5star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/btn_star_big_off" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Song" />
+
+            <TextView
+                android:id="@+id/textViewSingers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Singers" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
